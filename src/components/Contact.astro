@@ -1,0 +1,89 @@
+---
+---
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <span class="section-tag" data-i18n="c.tag">Get In Touch</span>
+        <h2 data-i18n="c.h2">Get Your <span class="highlight">Free Fence Quote</span><br />Today</h2>
+        <p data-i18n="c.p">Ready to transform your property with a new fence? Contact Clôture Pro Laval for a fast, free, no-obligation estimate anywhere in Montreal, Laval or Greater Montreal.</p>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">&#128222;</span>
+            <div>
+              <strong data-i18n="c.call">Call or Text</strong>
+              <a href="tel:+15140000000">(514) 000-0000</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#9993;</span>
+            <div>
+              <strong data-i18n="c.email.lbl">Email</strong>
+              <a href="mailto:info@cloturepro.ca">info@cloturepro.ca</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128205;</span>
+            <div>
+              <strong data-i18n="c.area.lbl">Service Area</strong>
+              <span data-i18n="c.area.val">Montreal, Laval &amp; Greater Montreal</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128336;</span>
+            <div>
+              <strong data-i18n="c.hours.lbl">Hours</strong>
+              <span data-i18n="c.hours.val">Mon – Sat: 7:00 AM – 7:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="quoteForm" novalidate>
+        <h3 data-i18n="f.h3">Request a Free Quote</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname" data-i18n="f.name.lbl">Full Name *</label>
+            <input type="text" id="fname" name="name" data-i18n-ph="f.name.ph" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="fphone" data-i18n="f.phone.lbl">Phone Number *</label>
+            <input type="tel" id="fphone" name="phone" placeholder="(514) 000-0000" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="femail" data-i18n="f.email.lbl">Email Address</label>
+          <input type="email" id="femail" name="email" placeholder="your@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="fcity" data-i18n="f.city.lbl">City / Neighborhood *</label>
+          <input type="text" id="fcity" name="city" data-i18n-ph="f.city.ph" placeholder="e.g. Laval, Brossard, Saint-Laurent…" required />
+        </div>
+        <div class="form-group">
+          <label for="fservice" data-i18n="f.svc.lbl">Fence Type</label>
+          <select id="fservice" name="service">
+            <option value="" data-i18n="f.svc.default">Select a fence type…</option>
+            <option value="wood" data-i18n="f.svc.wood">Wood Fence (Clôture en Bois)</option>
+            <option value="vinyl" data-i18n="f.svc.vinyl">Vinyl / PVC Fence (Clôture en Vinyle)</option>
+            <option value="aluminum" data-i18n="f.svc.al">Aluminum Fence (Clôture en Aluminium)</option>
+            <option value="pool" data-i18n="f.svc.pool">Pool Fence (Clôture de Piscine)</option>
+            <option value="chainlink" data-i18n="f.svc.chain">Chain-Link Fence (Clôture Chaîne)</option>
+            <option value="repair" data-i18n="f.svc.repair">Fence Repair (Réparation)</option>
+            <option value="other" data-i18n="f.svc.other">Other / Not Sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="fmsg" data-i18n="f.msg.lbl">Tell Us More</label>
+          <textarea id="fmsg" name="message" rows="4" data-i18n-ph="f.msg.ph" placeholder="Approximate fence length, height, any special requirements…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" data-i18n="f.submit">Send My Free Quote Request &#8594;</button>
+        <p class="form-disclaimer" data-i18n="f.disclaimer">We respond within 24 hours. No spam, ever.</p>
+        <div id="formSuccess" class="form-success" style="display:none;" data-i18n="f.success">
+          &#10003; Thank you! We'll be in touch within 24 hours.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

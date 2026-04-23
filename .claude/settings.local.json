@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start \"c:/Users/Mohamad/OneDrive/Bureau/projects/Eco_Install_Fence/index.html\")"
+    ]
+  }
+}
