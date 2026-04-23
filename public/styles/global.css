@@ -161,7 +161,7 @@ section { padding: 5rem 0; }
   height: 120px;
 }
 
-.logo { height: 104px; width: auto; }
+.logo { height: 104px; width: auto; mix-blend-mode: screen; }
 
 .nav-links {
   display: flex;
@@ -844,7 +844,7 @@ section { padding: 5rem 0; }
   padding: 4rem 0 3rem;
 }
 
-.footer-logo { height: 50px; margin-bottom: 1rem; }
+.footer-logo { height: 50px; margin-bottom: 1rem; mix-blend-mode: screen; }
 
 .footer-brand p {
   font-size: .88rem;
