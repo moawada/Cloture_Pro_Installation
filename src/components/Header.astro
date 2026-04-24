@@ -1,10 +1,11 @@
 ---
+const { BASE_URL } = import.meta.env;
 ---
 
 <header id="header">
   <div class="container nav-container">
     <a href="#home" class="logo-link">
-      <img src="/images/logo.png" alt="Clôture Pro Laval - Fence Installation Montreal Laval" class="logo" />
+      <img src={`${BASE_URL}images/logo.png`} alt="Clôture Pro Laval - Fence Installation Montreal Laval" class="logo" />
     </a>
     <nav>
       <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
