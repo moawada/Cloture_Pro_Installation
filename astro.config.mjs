@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://www.cloturepro.ca',
+  site: process.env.SITE_URL || 'https://moawada.github.io',
+  base: process.env.BASE_PATH,
 });
